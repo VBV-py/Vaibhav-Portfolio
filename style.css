@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* background-image: url('back1.jpg');  */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(2, 159, 159);
+    background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: aqua;
+    transform: scale(1.2);
+}
+
+nav .nav-left {
+    font-size: 1.2rem;
+}
+
+main .Home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+    height:flex;
+}
+
+main hr {
+    border: 0;
+    background-color: azure;
+    margin: 50px 50px;
+    height: 1.3px;
+}
+
+.Home>div {
+    width: 40%;
+}
+
+.Home .rightsec img {
+    width: 70%;
+    perspective: 1000px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rotate-img{
+    /* width: 200px;  
+  height: auto; */
+  transition: transform 1s; 
+  transform-style: preserve-3d; 
+}
+.rotate-img:hover {
+        transform: rotateY(180deg); 
+      }
+
+
+.Home .leftsec {
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left:15%;
+    margin:flex;
+    perspective: 1000px;
+}
+
+.Home .leftsec #bio {
+    font-size: 1rem;
+    margin-top: 10px;
+    display:flex;
+}
+.Home .leftsec .name{
+    font-size:1.5rem;
+    color:orange;
+    
+    margin:10px 0 10px 0;
+}
+.Home .leftsec #at{
+    color:aqua;
+}
+
+.Home .leftsec #element {
+    color: aqua;
+    font-size: 1.2rem;
+    /* display: flex; */
+}
+
+.Home .leftsec button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    margin-top: 50px;
+    transition: transform 1s; 
+  transform-style: preserve-3d;
+}
+.Home .leftsec #hire{
+    border:2px solid black;
+    background-color: aqua;
+    margin-right:20px;
+}
+.Home .leftsec #talk{
+    background-color:transparent;
+    border:2px solid aqua;
+    color:white;
+}
+.Home .leftsec #talk a{
+    color:white;
+}
+.Home .leftsec button:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    transform: rotateY(360deg); 
+}
+
+.Home .leftsec button a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+/* about */
+.About {
+    /* display:flex; */
+    margin-left: 70px;
+    height:400px;
+    perspective: 1000px;
+
+}
+
+.About #abt {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.About button {
+    margin-top: 30px;
+    font-size: 1.01rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    width: 150px;;
+    transition: transform 1s; 
+  transform-style: preserve-3d;
+
+}
+
+.About button:hover {
+    color: #000305;
+    background-color: aqua;
+    transform: scale(1.1);
+    transform: rotateY(360deg); 
+}
+
+.About a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Skills*/
+.Skills h3 {
+    margin-left: 70px;
+}
+.Skills{
+    height:flex;
+    margin-bottom:100px;
+}
+.skills-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0 0 60px;
+}
+
+.skill {
+    margin-bottom: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.skill i {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.skill-text {
+    flex: 1;
+}
+.skill p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #324a5e;
+    height: 15px;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 14px;
+    background: linear-gradient(90deg, #1fa2ff, #12d8fa, #a6ffcb);
+    border-radius: 5px;
+}
+
+/* Projects */
+.Projects h3 {
+    margin-left: 70px;
+    margin-bottom:40px;
+}
+
+.Projects {
+    justify-content: center;
+    align-items: center;
+    height:flex;
+
+}
+
+.Projects .project {
+    margin-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: cover;
+    text-align: center;
+    gap: 20px;
+    margin: auto;
+}
+
+.Projects .project a {
+    margin-top:20px;
+    text-decoration: none;
+    color: white;
+}
+
+.Projects .project a:hover {
+    transform: scale(2);
+    color: aqua;
+}
+
+/* Contact */
+.Contact {
+    /* text-align: center; */
+    height: flex;
+    margin-left:70px;
+    margin-bottom:150px;
+}
+
+.Contact .contact {
+    display: flex;
+    /* justify-content: space-around;
+    align-items: flex-start; */
+    flex-wrap: wrap;
+}
+
+/* .Contact .contact #pers1 {
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center;
+    margin-top: 40px;
+}
+
+.Contact .contact #pers1 #text {
+    padding-left: 10px;
+    ;
+
+}
+
+.Contact .contact #pers1 .foo {
+    display: flex;
+
+}
+
+.Contact .contact #pers1 #mn {
+    margin-left: 40px;
+    position: absolute;
+}
+.Contact .contact #pers1 #mn #mail a{
+    color:green;
+} */
+
+.Contact .contact #items {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.Contact .contact #items li a {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+.Contact .contact #items a:hover {
+    color: aqua;
+    transform: scale(1.2);
+}
+/* .Contact .contact #pers1 #mn #mail a:hover{
+    color:green;
+} */
+
+footer {
+    display: flex;
+    margin-top:100px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth; 
+    
+}
+
+.Arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* display: none; */
+    z-index: 1000;
+}
+
+#arrbtn {
+    background-color: transparent;
+    
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#arrbtn i{
+    color: white;
+}
+
+#arrbtn:hover {
+    /* background-color: rgb(255, 255, 255); */
+    transform: scale(1.2);
+}
+
+#arrow {
+    font-size: 24px;
+}
+
+@keyframes cheer {
+    0% {
+        transform: scale(1);
+        opacity:0;
+        
+    }
+    50% {
+        transform: scale(1.1);
+        opacity:0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity:1;
+    }
+}
+.cheering {
+    animation: cheer 1s ease-in;
+    opacity: 1; 
+ }
+
+
+  
