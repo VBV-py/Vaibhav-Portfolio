@@ -27,11 +27,8 @@ This is my personal portfolio website created using **HTML**, **CSS**, and **Jav
 ```plaintext
 project-folder/
 ├── index.html       # Main HTML file
-├── css/
-│   ├── style.css    # Main stylesheet
-│   └── responsive.css  # Styles for mobile and tablet devices
-├── js/
-│   └── script.js    # JavaScript for interactivity
-├── images/
+├── style.css   # Main stylesheet  
+├── script.js    # JavaScript for interactivity
+├── assets/
 │   └── ...          # All images used in the website
 └── README.md        # Project documentation
