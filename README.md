@@ -6,11 +6,11 @@ This is my personal portfolio website created using **HTML**, **CSS**, and **Jav
 <br>
 ## 🚀 Features
 <br>
--- Responsive Design: Works seamlessly on desktops, tablets, and mobile devices.
--- Interactive Elements: Smooth scrolling, hover effects, and dynamic animations.
--- Projects Section: A showcase of my personal and academic projects.
--- Contact Section: Easily reach out to me through the contact section.
--- Social Links: Connect with me on various platforms.
+-- Responsive Design: Works seamlessly on desktops, tablets, and mobile devices.<br>
+-- Interactive Elements: Smooth scrolling, hover effects, and dynamic animations.<br>
+-- Projects Section: A showcase of my personal and academic projects.<br>
+-- Contact Section: Easily reach out to me through the contact section.<br>
+-- Social Links: Connect with me on various platforms.<br>
 
 ---
 
